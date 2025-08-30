@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gupta Cycle Store – Since 1980</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes pulseBadge {
+      0%, 100% { transform: scale(1) rotate(-6deg); }
+      50% { transform: scale(1.1) rotate(-6deg); }
+    }
+    .badge-animate { animation: pulseBadge 2s infinite; }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-pink-50 via-sky-50 to-lime-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-fuchsia-600 via-blue-600 to-cyan-500 text-white p-4 shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl md:text-3xl font-extrabold tracking-wide drop-shadow">Gupta Cycle Store – Since 1980</h1>
+      <nav class="hidden sm:flex space-x-4">
+        <a href="#home" class="hover:text-yellow-300">Home</a>
+        <a href="#kids" class="hover:text-yellow-300">Kids</a>
+        <a href="#adults" class="hover:text-yellow-300">Adults</a>
+        <a href="#about" class="hover:text-yellow-300">About</a>
+        <a href="#contact" class="hover:text-yellow-300">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="relative bg-cover bg-center h-[70vh] flex items-center justify-center" style="background-image: url('https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg');">
+    <!-- Ribbon Badge -->
+    <div class="absolute top-6 left-6 bg-yellow-300 text-black font-bold px-4 py-2 rounded-full shadow-lg badge-animate">
+      Trusted Since 1980
+    </div>
+
+    <div class="bg-black/50 text-center p-6 md:p-10 rounded-2xl backdrop-blur">
+      <h2 class="text-4xl md:text-6xl font-extrabold text-white mb-3">Color Your Ride</h2>
+      <p class="text-base md:text-xl text-gray-100 mb-6">Kids & Adult cycles • Repairs • Accessories • Agra</p>
+      <div class="flex flex-wrap gap-3 justify-center">
+        <a href="#kids" class="bg-amber-400 hover:bg-amber-500 text-black px-6 py-3 rounded-full font-semibold shadow">Kids Cycles</a>
+        <a href="#adults" class="bg-emerald-400 hover:bg-emerald-500 text-black px-6 py-3 rounded-full font-semibold shadow">Adult Cycles</a>
+        <a href="#contact" class="bg-cyan-400 hover:bg-cyan-500 text-black px-6 py-3 rounded-full font-semibold shadow">Visit Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kids Bikes -->
+  <section id="kids" class="py-14">
+    <div class="container mx-auto">
+      <h3 class="text-3xl md:text-4xl font-extrabold text-center mb-2">Kids Collection</h3>
+      <p class="text-center text-gray-600 mb-8">Bright, safe and fun cycles for young riders</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl shadow p-4 text-center border-t-4 border-pink-400">
+          <img src="https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg" alt="Kids Bike 1" class="mx-auto rounded-xl mb-4 h-48 w-full object-cover">
+          <h4 class="text-xl font-semibold">Kids Bike 14"</h4>
+          <p class="text-gray-600">Training wheels • Colorful decals</p>
+          <p class="text-lg font-bold mt-2">₹5,999</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-4 text-center border-t-4 border-yellow-400">
+          <img src="https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg" alt="Kids Bike 2" class="mx-auto rounded-xl mb-4 h-48 w-full object-cover">
+          <h4 class="text-xl font-semibold">Kids MTB 20"</h4>
+          <p class="text-gray-600">Front suspension • V-brakes</p>
+          <p class="text-lg font-bold mt-2">₹8,499</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-4 text-center border-t-4 border-cyan-400">
+          <img src="https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg" alt="Kids Bike 3" class="mx-auto rounded-xl mb-4 h-48 w-full object-cover">
+          <h4 class="text-xl font-semibold">Kids City 18"</h4>
+          <p class="text-gray-600">Basket • Bell • Side-stand</p>
+          <p class="text-lg font-bold mt-2">₹7,299</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Adult Bikes -->
+  <section id="adults" class="py-14 bg-gradient-to-r from-sky-50 to-violet-50">
+    <div class="container mx-auto">
+      <h3 class="text-3xl md:text-4xl font-extrabold text-center mb-2">Adult Collection</h3>
+      <p class="text-center text-gray-600 mb-8">From city commuters to rugged MTBs</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl shadow p-4 text-center border-t-4 border-emerald-400">
+          <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg" alt="Adult MTB" class="mx-auto rounded-xl mb-4 h-48 w-full object-cover">
+          <h4 class="text-xl font-semibold">MTB 29"</h4>
+          <p class="text-gray-600">Alloy frame • Disk brakes</p>
+          <p class="text-lg font-bold mt-2">₹18,999</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-4 text-center border-t-4 border-indigo-400">
+          <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg" alt="City Hybrid" class="mx-auto rounded-xl mb-4 h-48 w-full object-cover">
+          <h4 class="text-xl font-semibold">City Hybrid</h4>
+          <p class="text-gray-600">Lightweight • 7-speed</p>
+          <p class="text-lg font-bold mt-2">₹14,499</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-4 text-center border-t-4 border-rose-400">
+          <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg" alt="Road Fitness" class="mx-auto rounded-xl mb-4 h-48 w-full object-cover">
+          <h4 class="text-xl font-semibold">Road Fitness</h4>
+          <p class="text-gray-600">Fast rolling • Alloy rims</p>
+          <p class="text-lg font-bold mt-2">₹16,299</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-14">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl md:text-4xl font-extrabold mb-4">About Us</h3>
+      <p class="max-w-3xl mx-auto text-lg">At Gupta Cycle Store, we have been serving cycling enthusiasts since 1980. From premium mountain bikes to city rides, we bring quality and passion together for every rider. We also stock helmets, lights, locks and offer full-service repairs.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-14 bg-white">
+    <div class="container mx-auto">
+      <h3 class="text-3xl md:text-4xl font-extrabold text-center mb-6">Visit Us</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        <div class="space-y-3">
+          <p class="text-lg"><span class="font-semibold">📍 Address:</span> 37/170, Bundu Katra, Gwalior Road, Agra, Uttar Pradesh 282001</p>
+          <p class="text-lg"><span class="font-semibold">📞 Phone:</span> +91 9997218084, 9760897658</p>
+          <p class="text-lg"><span class="font-semibold">✉️ Email:</span> contact@guptacyclestore.com</p>
+          <div class="flex gap-3 pt-2">
+            <a href="https://wa.me/919876543210" target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-5 py-3 rounded-full font-semibold shadow">WhatsApp Chat</a>
+            <a href="tel:+919876543210" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-3 rounded-full font-semibold shadow">Call Now</a>
+          </div>
+        </div>
+        <div class="w-full aspect-video rounded-xl overflow-hidden shadow">
+          <iframe class="w-full h-full" style="border:0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=37/170,+Bundu+Katra,+Agra,+Uttar+Pradesh+282001&output=embed"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-fuchsia-600 via-blue-600 to-cyan-500 text-white text-center py-6 mt-0">
+    <p class="font-semibold">© 2025 Gupta Cycle Store – Since 1980. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
